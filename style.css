@@ -1,0 +1,19 @@
+.true {
+    background-color: greenyellow;
+}
+.false {
+    background-color: darkred;
+    color: #fff;
+}
+.tableheader th span {
+    white-space: nowrap;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+td {
+    text-align: center;
+}
